@@ -1,0 +1,292 @@
+/* 1.homepage sitemap */
+
+div.homepage_sitemapbody caption{
+	text-align: left;
+	border-top-style: solid;
+}
+div.homepage_sitemapbody {
+	position: relative;
+	top: 580px;
+	width: 105%;
+	left: -10px;
+	max-height: 0vmax;
+}
+
+div.homepage_sitemapbody table, th, td {
+    border-collapse: collapse;
+}
+
+div.homepage_sitemapbody th, td {
+    padding: 15px;
+    font-size:80%
+}
+
+div.homepage_sitemapbody th {
+    text-align: left;
+}
+
+div.homepage_sitemapbody a {
+    text-decoration: none;
+}
+
+/* unvisited link */
+div.homepage_sitemapbody a:link {
+    color: black;
+}
+
+/* visited link */
+div.homepage_sitemapbody a:visited {
+    color: black;
+}
+
+/* mouse over link */
+div.homepage_sitemapbody a:hover {
+    color: black;
+}
+
+
+/* 2.relax sitemap */
+div.relax_sitemapbody caption{
+	text-align: left;
+	border-top-style: solid;
+	text-shadow: 0px 0px #0A090A;
+	color: black;
+}
+
+div.relax_sitemapbody {
+    position:relative;
+    top: 830px;
+    width:105%;
+    left:-10px;
+    max-height: 0px;
+}
+
+div.relax_sitemapbody table, th, td {
+    border-collapse: collapse;
+}
+
+div.relax_sitemapbody th, td {
+    padding: 15px;
+    font-size:80%
+}
+
+div.relax_sitemapbody th {
+	text-align: left;
+	color: black;
+}
+
+div.relax_sitemapbody a {
+    text-decoration: none;
+}
+
+/* unvisited link */
+div.relax_sitemapbody a:link {
+    color: black;
+}
+
+/* visited link */
+div.relax_sitemapbody a:visited {
+   color: black;
+}
+
+/* mouse over link */
+div.relax_sitemapbody a:hover {
+    color: black;
+}
+
+
+/* 3.travel sitemap */
+div.travel_sitemapbody caption{
+    text-align:left;
+}
+div.travel_sitemapbody_hr hr{
+    position: relative;
+    bottom: -760px;
+    width:120%;
+    left:-10px;
+}
+div.travel_sitemapbody {
+    position: relative;
+    bottom: -760px;
+    width:120%;
+    left:-10px;
+}
+
+div.travel_sitemapbody table, th, td {
+    border-collapse: collapse;
+}
+
+div.travel_sitemapbody th, td {
+    padding: 15px;
+    font-size:80%
+}
+
+div.travel_sitemapbody th {
+    text-align: left;
+}
+
+div.travel_sitemapbody a {
+    text-decoration: none;
+}
+
+/* unvisited link */
+div.travel_sitemapbody a:link {
+    color: black;
+}
+
+/* visited link */
+div.travel_sitemapbody a:visited {
+   color: black;
+}
+
+/* mouse over link */
+div.travel_sitemapbody a:hover {
+    color: black;
+}
+
+
+/* 4.eat sitemap */
+div.eat_sitemapbody caption{
+    text-align:left;
+}
+div.eat_sitemapbody_hr hr{
+    position: relative;
+    top: 900px;
+    width:100%;
+    left:0px;
+}
+div.eat_sitemapbody  {
+    position: relative;
+    bottom: -760px;
+    width:105%;
+    left:-10px;
+}
+
+div.eat_sitemapbody  table, th, td {
+    border-collapse: collapse;
+}
+
+div.eat_sitemapbody  th, td {
+    padding: 15px;
+    font-size:80%
+}
+
+div.eat_sitemapbody  th {
+    text-align: left;
+}
+
+div.eat_sitemapbody  a {
+    text-decoration: none;
+}
+
+/* unvisited link */
+div.eat_sitemapbody  a:link {
+   color: white;
+}
+
+/* visited link */
+div.eat_sitemapbody  a:visited {
+   color: black;
+}
+
+/* mouse over link */
+div.eat_sitemapbody  a:hover {
+    color: black;
+}
+
+
+/* 5.feedback sitemap */
+
+div.feedback_sitemapbody caption{
+    text-align:left;
+}
+div.feedback_sitemapbody_hr hr{
+    position: relative;
+    top: 800px;
+    width:105%;
+    left:-10px;
+}
+div.feedback_sitemapbody  {
+    position: relative;
+    top: 800px;
+    width:105%;
+    left:-10px;
+}
+
+div.feedback_sitemapbody  table, th, td {
+    border-collapse: collapse;
+}
+
+div.feedback_sitemapbody  th, td {
+    padding: 15px;
+    font-size:80%
+}
+
+div.feedback_sitemapbody  th {
+    text-align: left;
+}
+
+div.feedback_sitemapbody  a {
+    text-decoration: none;
+}
+
+/* unvisited link */
+div.feedback_sitemapbody  a:link {
+   color: white;
+}
+
+/* visited link */
+div.feedback_sitemapbody  a:visited {
+   color: black;
+}
+
+/* mouse over link */
+div.feedback_sitemapbody  a:hover {
+    color: black;
+}
+
+
+
+/* 6.sitemap page */
+div.sitemapbody caption{
+    text-align:left;
+}
+div.sitemapbody {
+    position: relative;
+    bottom: -80px;
+    width:105%;
+    left:-10px;
+}
+
+ div.sitemapbody table, th, td {
+    border-collapse: collapse;
+}
+
+div.sitemapbody th, td {
+	padding: 15px;
+	font-size: 80%;
+	background-color: #BEB9B9;
+}
+
+div.sitemapbody th {
+    text-align: left;
+}
+
+div.sitemapbody a {
+    text-decoration: none;
+}
+
+/* unvisited link */
+div.sitemapbody a:link {
+     color: white;
+}
+
+/* visited link */
+div.sitemapbody a:visited {
+    color: black;
+}
+
+/* mouse over link */
+div.sitemapbody a:hover {
+    color: black;
+}

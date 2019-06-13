@@ -1,0 +1,74 @@
+/* 4.relax page */
+body {
+ background: linear-gradient(to bottom, rgb(200,200,255), white 80%,  rgb(200,200,255));
+height:2050px;
+
+}
+
+div.relax {
+	position: absolute;
+	top: 100px;
+	left: 10%;
+	margin: 5px;
+	border: 1px solid #ccc;
+	float: left;
+	width: 1200px;
+	height: 400px;
+}
+
+div.relax img {
+	width: 1300px;
+	height: 520px;
+}
+
+div.relax_1_desc {
+	padding: 3px;
+	font-size: 25px;
+	text-align: left;
+	max-width: 1300px;
+	width: 1300px;
+}
+
+
+/* 2.image gallery css */
+div.travel_gallery_head{
+	position: relative;
+	top: 780px;
+	left: 10%;
+	font-size: 25px;
+	max-width: 1300px;
+}
+
+div.travel_gallery {
+	position: relative;
+	top: 780px;
+	left: 10%;
+	margin: 10px;
+	border: 1px solid #ccc;
+	float: left;
+	width: 300px;
+
+}
+
+div.travel_gallery:hover {
+    border: 1px solid #777;
+}
+
+div.travel_gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 4px;
+    text-align: center;
+}
+
+div.destination_instruction{
+	position: relative;
+	top: 820px;
+	left: 10%;
+	width: 80%;
+	clear: left;
+
+}

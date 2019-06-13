@@ -1,0 +1,146 @@
+/* 2.travel page */
+
+/* travel image css */
+body {
+ background: linear-gradient(to bottom, rgb(200,200,255), white 80%, orange);
+height:3700px;
+
+}
+div.travel {
+    position:absolute;
+    top:100px;
+    left:10%;
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 1300px;
+}
+
+div.travel img {
+	width: 1300px;
+	height: 400px;
+}
+
+div.travel_1_desc {
+	padding: 15px;
+	text-align: left;
+	width: 1300px;
+	max-width: 1280px;
+	font-size: 25px;
+}
+
+/* 2.image gallery css */
+div.travel_gallery_head{
+	position: relative;
+	top: 650px;
+	left: 10%;
+	max-width: 1300px;
+    font-size: 25px;
+}
+
+div.travel_gallery {
+    position:relative;
+    top:650px;
+    left:10%;
+    margin: 10px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 300px;
+}
+
+div.travel_gallery:hover {
+	border: 1px solid #777;
+}
+
+
+
+div.reflection{
+	position: relative;
+	top: 680px;
+	left: 10%;
+	text-align: left;
+	width: 1300px;
+	max-width: 1280px;
+    height:auto;
+	font-size: 25px;
+	clear: both;
+
+}
+
+
+/* Creativity part */
+/* position */
+.creativity{
+	position: relative;
+	top: 700px;
+	left: 10%;
+	height: 600px;
+	clear: both;
+	max-width: 1280px;
+	font-size: 25px;
+}
+
+#describe_yin_yang{
+	position: relative;
+	top: 200px;
+	height: 200px;
+	clear: both;
+	max-width: 1280px;
+	font-size: 25px;
+	max-height: 200px;
+}
+/*  box-sizing */
+*, *:before, *:after{
+  box-sizing: border-box;
+}
+/* animation time */
+.yin_yang {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: linear-gradient(to right, #222 50%, #eee 50%);
+  position: absolute;
+  animation: spin 2s infinite linear;
+}
+
+.yin_yang:before, .yin_yang:after {
+  content: '';
+
+  width: 50%;
+  height:50%;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 33.33333px;
+
+  position: absolute;
+  left:0; right:0;
+  margin: auto;
+}
+
+.yin_yang:before{
+  background-color: #eee;
+  border-color: #222;
+  top:0;
+}
+
+.yin_yang:after{
+  background-color: #222;
+  border-color:#eee;
+  bottom:0;
+}
+
+@keyframes spin{
+  to {
+    transform: rotate(360deg)
+  }
+}
+
+/* RSS Feed */
+.rss_feed{
+    position: relative;
+    top: 700px;
+    left: 10%;
+    clear: both;
+    max-width: 1280px;
+    font-size: 15px;
+}

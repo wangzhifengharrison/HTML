@@ -1,0 +1,47 @@
+/*
+* @Author: Marte
+* @Date:   2018-05-24 21:48:55
+* @Last Modified by:   Marte
+* @Last Modified time: 2018-05-24 21:49:38
+*/
+
+.yinyang {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, #ffffff 1%, #fcf8f7 50%, #0a0a0a 51%, #050205 100%);
+    position: relative;
+    margin: 100px auto 40px;
+    animation-duration: 4s;
+    animation-name: circle;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.yinyang::before {
+    content: '';
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #fff;
+    position: absolute;
+    top: 50px;
+    border: 40px solid #000;
+}
+
+.yinyang::after {
+    content: '';
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #000;
+    position: absolute;
+    right: 0px;
+    bottom: 50px;
+    border: 40px solid #ffffff;
+}
+p{
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+}

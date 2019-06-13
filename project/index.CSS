@@ -1,0 +1,186 @@
+/* CSS rules for navigation division */
+
+/* 1.homepage */
+
+#navigation {
+  width: 100%;
+  position: fixed;
+  /* eliminates small gap at top of the page */
+  top: 0px;
+  left:0%;
+  background: white;
+  height: 95px;
+   background-color: #0099CC;
+
+}
+
+/* Menu division: format the menu generally including background colour and style */
+
+#menu {
+
+  width: 100%;
+  height: 35px;
+  font-size: 15px;
+  font-family: Tahoma, Geneva, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  background-color: #3366CC;
+  /* border-radius: 6px; */
+}
+
+/* Menu division: format the unordered list so that it appears directly below the title of the page and below the edge of the colour background */
+#menu ul {
+  height: auto;
+  padding: 8px 0px;
+  margin: 0px;
+
+  }
+#navigation #menu ul {
+}
+
+
+/* Menu division: format the list items so that they display across the page instead of in a vertical list */
+#menu li {
+display: inline;
+padding: 20px;
+}
+
+/* Menu division: format the link items so that they are dark blue, spaced apart, and do not have underlines */
+#menu a {
+    text-decoration: none;
+    color: #196f3d;
+    padding: 8px 8px 8px 8px;
+}
+
+/*These are our pseudo elements to style the menu item links depending on whether they have been visited or not and on hover. */
+
+/* unvisited link */
+#menu a:link {
+    color: black;
+}
+
+/* visited link */
+#menu a:visited {
+    color: black;
+}
+
+/* mouse over link */
+#menu a:hover {
+    color: white;
+}
+
+/* 1.homepage */
+.home_backgroud {
+	width: 1300px;
+	height: 500px;
+	position: absolute;
+	top: 100px;
+	left: 10%;
+	max-width: 1300px;
+}
+
+div.passion {
+	position: relative;
+	top: 150px;
+	left: 30%;
+	font-size: 50px;
+	font-weight: 200px;
+	color: blue;
+	font-family: fantasy;
+	max-width: 400px;
+	width: 400px;
+}
+
+#passion_2 {
+	position: relative;
+	top: 550px;
+	left: 13%;
+	font-size: 30px;
+	font-weight: 200;
+	color: gray;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	width: 1200px;
+	max-width: 1200px;
+}
+
+div.top_destination{
+	position: relative;
+	top: 550px;
+	left: 10%;
+	width: 1300px;
+	min-width: 0px;
+	max-width: 1300px;
+}
+
+
+
+div.gallery {
+    position:relative;
+    top:550px;
+    left:10%;
+    margin: 10px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 300px;
+}
+.homepage_sitemapbody table caption {
+}
+.homepage_sitemapbody table caption {
+}
+
+
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+/* assignment part CSS document */
+
+div.assignment_part{
+position:relative;
+top: 100px;
+}
+
+div.image_map img{
+  height:400px;
+  width:300px;
+}
+thead tr th {
+}
+thead tr th {
+	background-color: #A39E9E;
+	color: #0B5FED;
+}
+.homepag_site_map {
+}
+.relax_image {
+}
+.relax_below_describtion {
+	width: 1300px;
+	max-width: 1300px;
+	font-size: 25px;
+}
+.relax_tabel_sitemap {
+}
+.trave_table {
+	background-color: #C1BCBC;
+}
+.eat_id {
+	width: 1300px;
+	height: 400px;
+	max-width: 1300px;
+	max-height: 400px;
+}
+.eat_table {
+	background-color: #B9B5B5;
+}
